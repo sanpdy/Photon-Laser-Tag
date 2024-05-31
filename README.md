@@ -68,11 +68,3 @@ Then, run your Python3 compiler from the extracted folder containing main.py usi
 ### Game Action:
 - This screen displays player codenames and their scores for the ongoing game, as well as Play-by-Play event list.
 - The game will play out for 6 minutes, after which a button at the bottom of the screen will appear to return to player entry.
-
-## Known Issues
-
-The process handling the flashing of the highest team's score causes an error when returning to player entry causing a crash. 
-A full game can still be played, however program must still be restarted. This is caused by a PyQt6 problem occurring when 
-updating a widget's stylesheet when it's not being displayed. This is a deep error that we could not fix before the deadline of 
-this project.
-
